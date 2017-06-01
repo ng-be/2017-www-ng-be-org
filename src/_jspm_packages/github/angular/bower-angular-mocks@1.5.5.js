@@ -1,1 +1,0 @@
-module.exports = require("github:angular/bower-angular-mocks@1.5.5/angular-mocks");

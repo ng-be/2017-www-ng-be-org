@@ -1,1 +1,0 @@
-module.exports = require("github:distros/bootstrap-less@3.3.9/js/bootstrap");

@@ -2,18 +2,1261 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e39530-4a44-46e4-bd13-5cbab65cb026" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/.dependencies.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/.loaderversions" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular-ui/ui-router@0.2.18.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular-ui/ui-router@0.2.18/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular-ui/ui-router@0.2.18/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular-ui/ui-router@0.2.18/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/ngAnimateMock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/ngMock.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/ngMockE2E.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular-mocks@1.5.5/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/angular/bower-angular@1.5.5/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/jquery-migrate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/components/jquery@2.2.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/badges.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/close.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/code.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/index.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/media.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/forms.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/labels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/resize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/size.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/mixins/vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/modals.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/navs.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/pager.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/panels.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/print.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/tables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/type.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/bootstrap/wells.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/affix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/js/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/distros/bootstrap-less@3.3.9/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-fs@0.1.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-fs@0.1.2/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-fs@0.1.2/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-fs@0.1.2/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-process@0.1.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-process@0.1.1/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-process@0.1.1/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/jspm/nodelibs-process@0.1.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0/json.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/github/systemjs/plugin-json@0.1.0/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/CHANGELOG-6to5.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/CODE_OF_CONDUCT.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/browser-polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/browser-polyfill.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/browser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/doc/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/doc/node-props.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/external-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/external-helpers.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/plugins/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/identifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/lookahead.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/lval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/parseutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/tokencontext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/tokentype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/acorn/src/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/api/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/api/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/api/register/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/api/register/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/api/register/node-polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/api/register/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/comprehensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/expressions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/jsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/statements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/template-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/generators/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/node/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/node/parentheses.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/node/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/node/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/generation/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/helpers/code-frame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/helpers/merge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/helpers/normalize-ast.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/helpers/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/helpers/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/messages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/tools/build-external-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/file/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/file/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/file/options/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/file/options/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/file/options/parsers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/file/options/resolve-rc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/file/plugin-manager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/build-binary-assignment-operator-transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/build-comprehension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/build-conditional-assignment-operator-transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/build-react-transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/call-delegate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/define-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/explode-assignable-expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/get-function-arity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/memoise-decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/name-method.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/regex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/remap-async-to-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/helpers/replace-supers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/_default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/_strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/amd-strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/common-strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/ignore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/system.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/umd-strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/modules/umd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformer-pass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformer-pipeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/aliases.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/deprecated.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es3/member-expression-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es3/property-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es5/properties.mutators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/arrow-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/block-scoping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/destructuring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/object-super.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/parameters.default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/parameters.rest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/properties.computed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/properties.shorthand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/regex.sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/regex.unicode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/spec.block-scoping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/spec.symbols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/spec.template-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/spread.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/tail-call.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es6/template-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/async-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/class-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/comprehensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/decorators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/do-expressions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/exponentiation-operator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/export-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/function-bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/object-rest-spread.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/es7/trailing-function-commas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/internal/block-hoist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/internal/explode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/internal/hoist-directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/internal/module-formatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/internal/modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/internal/shadow-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/internal/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/minification/constant-folding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/minification/dead-code-elimination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/minification/member-expression-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/minification/property-literals.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/minification/remove-console.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/minification/remove-debugger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/optimisation/flow.for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/optimisation/react.constant-elements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/optimisation/react.inline-elements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/async-to-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/bluebird-coroutines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/eval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/jscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/react-compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/regenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/runtime/definitions.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/runtime/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/other/strict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/spec/block-scoped-functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/spec/function-name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/spec/proto-to-assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/spec/undefined-to-void.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/utility/inline-environment-variables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/validation/react.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/transformation/transformers/validation/undeclared-variable-check.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/hub.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/ancestry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/conversion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/evaluation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/family.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/inference/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/inference/inferer-reference.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/inference/inferers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/introspection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/lib/hoister.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/lib/removal-hooks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/lib/virtual-types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/modification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/removal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/path/replacement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/scope/binding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/scope/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/traversal/visitors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/alias-keys.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/builder-keys.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/converters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/retrievers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/validators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/types/visitor-keys.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/lib/babel/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/register-without-polyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/sebmck-bjs.nfo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/templates.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/tools/build-tests" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-core@5.5.8/tools/cache-templates" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/every.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/for-each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/last-index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/pop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/reduce-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/reverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/shift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/some.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/splice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/turn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/unshift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/array/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/date/add-locale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/date/format-utc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/date/format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/function/only.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/function/part.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/get-iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/is-iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/acosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/asinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/atanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/cbrt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/clz32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/cosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/expm1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/fround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/hypot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/imul.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/log10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/log1p.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/log2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/pot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/sinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/tanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/math/trunc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/epsilon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/is-finite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/is-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/is-nan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/is-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/max-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/min-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/number/random.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/classof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/define-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/freeze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/get-own-property-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/get-own-property-symbols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/is-frozen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/is-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/is-sealed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/make.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/seal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/object/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/construct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/delete-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/enumerate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/has.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/own-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/reflect/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/regexp/escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/code-point-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/ends-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/escape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/from-code-point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/starts-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/string/unescape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/for-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/is-concat-spreadable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/key-for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/replace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/to-string-tag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/symbol/unscopables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/core-js/weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/async-to-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/class-call-check.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/create-class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/create-decorated-class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/create-decorated-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/default-props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/define-decorated-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/extends.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/has-own.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/instanceof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/interop-require-default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/interop-require-wildcard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/interop-require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/object-destructuring-empty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/object-without-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/self-global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/sliced-to-array-loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/sliced-to-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/tagged-template-literal-loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/tagged-template-literal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/temporal-assert-defined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/temporal-undefined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/to-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/to-consumable-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/helpers/typeof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/regenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/regenerator/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/babel-runtime@5.5.8/regenerator/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/build/Gruntfile.ls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/build/build.ls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/build/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/build/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/core.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/library.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/library.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/library.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/shim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/client/shim.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/$for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/_.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/number.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/core/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es5/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/number.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es6/weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7/regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/es7/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/$for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/_.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/every.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/for-each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/last-index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/pop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/reduce-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/reverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/shift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/some.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/splice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/turn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/unshift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/array/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/clear-immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/date/add-locale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/date/format-utc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/date/format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/date/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/function/has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/function/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/function/name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/function/part.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/get-iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/html-collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/html-collection/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/html-collection/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/is-iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/acosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/asinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/atanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/cbrt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/clz32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/cosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/expm1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/fround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/hypot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/imul.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/log10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/log1p.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/log2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/sinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/tanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/math/trunc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/node-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/node-list/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/node-list/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/epsilon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/is-finite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/is-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/is-nan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/is-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/max-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/min-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/number/random.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/classof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/define-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/freeze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/get-own-property-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/get-own-property-symbols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/is-frozen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/is-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/is-sealed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/make.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/seal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/object/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/construct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/delete-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/enumerate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/has.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/own-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/reflect/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/regexp/escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/regexp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/set-immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/set-interval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/set-timeout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/code-point-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/ends-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/escape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/from-code-point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/lpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/rpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/starts-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/string/unescape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/is-concat-spreadable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/key-for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/replace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/to-string-tag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/symbol/unscopables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/fn/weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/js/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/$for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/_.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/number.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/core/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es5/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/number.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es6/weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7/regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/es7/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/$for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/_.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/every.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/for-each.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/join.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/last-index-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/pop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/reduce-right.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/reduce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/reverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/shift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/some.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/splice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/turn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/unshift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/array/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/clear-immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/date/add-locale.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/date/format-utc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/date/format.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/date/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/function.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/function/has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/function/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/function/name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/function/part.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/get-iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/html-collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/html-collection/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/html-collection/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/is-iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/acosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/asinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/atanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/cbrt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/clz32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/cosh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/expm1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/fround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/hypot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/imul.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/log10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/log1p.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/log2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/sign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/sinh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/tanh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/math/trunc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/node-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/node-list/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/node-list/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/epsilon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/is-finite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/is-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/is-nan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/is-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/max-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/min-safe-integer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/parse-float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/parse-int.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/number/random.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/classof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/define-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/entries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/freeze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/get-own-property-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/get-own-property-symbols.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/is-frozen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/is-object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/is-sealed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/make.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/seal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/object/values.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/apply.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/construct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/define-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/delete-property.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/enumerate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/get-own-property-descriptor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/get-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/get.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/has.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/is-extensible.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/own-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/prevent-extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/reflect/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/regexp/escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/regexp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/set-immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/set-interval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/set-timeout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/code-point-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/ends-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/escape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/from-code-point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/lpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/rpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/starts-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/string/unescape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/is-concat-spreadable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/key-for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/match.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/replace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/to-primitive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/to-string-tag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/symbol/unscopables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/fn/weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/js/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.array-includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.array-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.cof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.collection-strong.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.collection-to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.collection-weak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.ctx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.def.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.dom-create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.enum-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.fw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.get-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.invoke.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.iter-call.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.iter-define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.iter-detect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.iter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.keyof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.mix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.own-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.partial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.redef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.replacer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.same.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.set-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.string-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.string-pad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.string-repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.throws.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.uid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.unscope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/$.wks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.$for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.array.turn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.function.part.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.iter-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.number.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.number.math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/core.string.escape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.array.species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.function.has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.function.name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.number.constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.number.statics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.object.assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.object.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.object.set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.object.statics-accept-primitives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.object.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.code-point-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.ends-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.from-code-point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.string.starts-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es6.weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.array.includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.map.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.object.get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.object.to-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.regexp.escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.set.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.string.at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.string.lpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/es7.string.rpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/js.array.statics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/library/modules/$.collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/library/modules/$.def.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/library/modules/$.fw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/library/modules/$.redef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/library/modules/$.unscope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/web.dom.iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/web.immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/modules/web.timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/web.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/web/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/web/immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/web/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/library/web/timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.array-includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.array-methods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.assert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.cof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.collection-strong.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.collection-to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.collection-weak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.ctx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.def.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.dom-create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.enum-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.for-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.fw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.get-names.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.invoke.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.iter-call.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.iter-define.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.iter-detect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.iter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.keyof.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.mix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.own-keys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.partial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.redef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.replacer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.same.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.set-proto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.string-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.string-pad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.string-repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.task.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.throws.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.uid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.unscope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/$.wks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.$for.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.array.turn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.date.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.function.part.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.iter-helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.number.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.number.math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.object.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/core.string.escape-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.copy-within.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.fill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.find-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.from.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.array.species.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.function.has-instance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.function.name.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.number.constructor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.number.statics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.object.assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.object.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.object.set-prototype-of.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.object.statics-accept-primitives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.object.to-string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.regexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.code-point-at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.ends-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.from-code-point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.iterator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.raw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.repeat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.string.starts-with.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.weak-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es6.weak-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.array.includes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.map.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.object.get-own-property-descriptors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.object.to-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.observable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.regexp.escape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.set.to-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.string.at.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.string.lpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/es7.string.rpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/js.array.statics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/library/modules/$.collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/library/modules/$.def.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/library/modules/$.fw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/library/modules/$.redef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/library/modules/$.unscope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/web.dom.iterable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/web.immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/modules/web.timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/web.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/web/dom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/web/immediate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/web/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/core-js@0.9.18/web/timers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/process@0.10.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/process@0.10.1/.jspm-hash" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/process@0.10.1/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/process@0.10.1/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/process@0.10.1/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/process@0.10.1/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/npm/process@0.10.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system-csp-production.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system-csp-production.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system-csp-production.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system-polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system-polyfills.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system-polyfills.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_jspm_packages/system.src.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.less" afterPath="$PROJECT_DIR$/src/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/browserconfig.xml" afterPath="$PROJECT_DIR$/src/browserconfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/conference-day/conference-day.jade" afterPath="$PROJECT_DIR$/src/components/conference-day/conference-day.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/homepage/homepage.jade" afterPath="$PROJECT_DIR$/src/components/homepage/homepage.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/location/location.jade" afterPath="$PROJECT_DIR$/src/components/location/location.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/site-header/site-header.jade" afterPath="$PROJECT_DIR$/src/components/site-header/site-header.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/sponsors/sponsors.jade" afterPath="$PROJECT_DIR$/src/components/sponsors/sponsors.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/team/_build/team.less" afterPath="$PROJECT_DIR$/src/components/team/_build/team.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/team/team.jade" afterPath="$PROJECT_DIR$/src/components/team/team.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/workshop-day/workshop-day.jade" afterPath="$PROJECT_DIR$/src/components/workshop-day/workshop-day.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.jade" afterPath="$PROJECT_DIR$/src/index.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +1281,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="team.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/team/_build/team.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -131,6 +1404,10 @@
         <option value="$PROJECT_DIR$/src/app.less" />
         <option value="$PROJECT_DIR$/src/components/team/team.jade" />
         <option value="$PROJECT_DIR$/src/components/team/_build/team.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/.eslintignore" />
       </list>
     </option>
   </component>
@@ -177,130 +1454,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workshop-day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www-ng-be-org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conference-day" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,18 +1557,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496326984286</updated>
-      <workItem from="1496326985783" duration="2743000" />
+      <workItem from="1496326985783" duration="3035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2743000" />
+    <option name="totallyTimeSpent" value="3035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -660,7 +1812,39 @@
     <entry file="file://$PROJECT_DIR$/src/components/team/_build/team.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding />
         </state>
       </provider>
