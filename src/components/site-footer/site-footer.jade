@@ -1,0 +1,44 @@
+footer.site-footer
+
+    .site-footer__summary
+
+        .container
+
+            .row
+                .col-sm-3
+
+                    .callout
+
+                        img(src="/assets/img/logo.svg", alt="NG-BE")
+
+                .col-sm-8.col-sm-offset-1
+
+                    .row
+
+                        .col-xs-6.col-sm-4
+
+                            ul.links
+                                li(ui-sref-active="active"): a(ui-sref="app.public.homepage") Home
+                                li(ui-sref-active="active"): a(ui-sref="app.public.workshopDay") Workshop day
+                                li(ui-sref-active="active"): a(ui-sref="app.public.conferenceDay") Conference day
+
+
+                        .col-xs-6.col-sm-4
+
+                            ul.links
+                                li(ui-sref-active="active"): a(ui-sref="app.public.sponsors") Sponsors
+                                li(ui-sref-active="active"): a(ui-sref="app.public.location") Location
+                                li(ui-sref-active="active"): a(ui-sref="app.public.team") Team
+
+                        .col-xs-6.col-sm-4
+
+                            ul.links
+                                li: a(href="https://twitter.com/ngbeconf", target="_blank") @ngbeconf
+
+
+    .site-footer__disclaimer
+
+        ul
+            li: a(ui-sref="app.public.terms") Terms
+            li: a(ui-sref="app.public.codeOfConduct") Code of conduct
+

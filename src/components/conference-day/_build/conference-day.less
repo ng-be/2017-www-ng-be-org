@@ -1,0 +1,246 @@
+@import '../../../_build/variables';
+
+.page--conference-day {
+
+  .conference-day-hero {
+    padding: 60px 0;
+    text-align: center;
+
+    @media (max-width: @screen-sm-min) {
+      padding: 30px 0 15px 0;
+    }
+
+    h1 {
+      margin: 0 0 10px 0;
+      padding: 0;
+      font-weight: 700;
+    }
+    h2 {
+      margin: 0 0 10px 0;
+      padding: 0;
+      font-size: 1.6rem;
+    }
+    h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 1.3rem;
+    }
+  }
+
+  .conference-day-intro {
+    margin-bottom: 60px;
+
+    @media (max-width: @screen-sm-min) {
+      margin-bottom: 30px;
+    }
+
+  }
+
+  .conference-day-speakers {
+    background: white;
+    padding: 30px 0;
+    h1 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+    }
+
+    ul.quicklinks {
+      max-width: 450px;
+      margin: 0 auto 20px auto;
+      padding: 0 0 30px 0;
+      list-style: none;
+      text-align: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+      li {
+        display: inline-block;
+        text-align: center;
+        margin: 10px 10px;
+
+        a {
+          padding: 5px 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          background: #fae042;
+          color: #595f6e;
+        }
+
+      }
+    }
+  }
+
+  .conference-day-schedule {
+    padding: 30px 0 60px 0;
+    h1 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 60px;
+      font-size: 1.1rem;
+    }
+  }
+
+  .conference-day-buy {
+    background: white;
+    padding: 30px 0 60px 0;
+    text-align: center;
+    h1 {
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+    }
+    a.btn {
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .conference-day-buy-2 {
+    background: white;
+    padding: 60px 0 60px 0;
+    text-align: center;
+    a.btn {
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .conference-ticket-includes {
+    padding: 30px 0 60px 0;
+    text-align: center;
+    h1 {
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+    }
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+    .row + .row {
+      margin-top: 15px;
+    }
+  }
+
+  .included-item {
+    padding: 0 15px;
+  }
+
+  .speaker {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .speaker__image {
+    img {
+      border-radius: 50%;
+      border: 6px solid @ng-be-color-primary;
+      width: 100%;
+    }
+  }
+
+  .speaker__name {
+    font-size: 1.4rem;
+  }
+
+  .speaker__title {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .speaker__description {
+    margin-bottom: 10px;
+  }
+
+  .conference-day-angular-air {
+    background: white;
+    padding: 60px 0 60px 0;
+    text-align: center;
+    h1 {
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-bottom: 60px;
+      font-size: 1.1rem;
+    }
+    a.btn {
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+}
+
+.schedule-item {
+  display: flex;
+  justify-content: center;
+  &:first-of-type {
+    .schedule-item__time {
+      border-top: 1px solid @ng-be-yellow-dark;
+    }
+    .schedule-item__description {
+      border-top: 1px solid @ng-be-yellow-dark;
+    }
+  }
+  ul {
+    padding-left: 1.2rem;
+  }
+}
+
+.schedule-item__talk {
+  &:extend(.schedule-item);
+  .schedule-item__description {
+    background: lighten(@ng-be-yellow, 25%);
+  }
+}
+
+.schedule-item__time {
+  flex: 0 0 auto;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  background: @ng-be-yellow;
+  border-bottom: 1px solid @ng-be-yellow-dark;
+  border-left: 1px solid @ng-be-yellow-dark;
+}
+
+.schedule-item__description {
+  border-right: 1px solid @ng-be-yellow-dark;
+  border-bottom: 1px solid @ng-be-yellow-dark;
+  border-left: 1px solid @ng-be-yellow-dark;
+  flex: 1 0 40%;
+  padding: 21px 30px 15px 30px;
+  background: lighten(@ng-be-yellow, 35%);
+}
+
+.schedule-item__youtube {
+  background: url('components/conference-day/img/youtube.svg') no-repeat;
+  background-size: 24px 24px;
+  background-position: 0 -3px;
+  height: 17px;
+  padding-left: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 17px;
+  a {
+    text-decoration: none;
+    color: #595f6f;
+    border-bottom: 1px dotted #595f6f;
+    &:active{
+      text-decoration: none;
+    }
+    &:hover {
+      border-bottom: 1px solid #595f6f;
+      text-decoration: none;
+    }
+  }
+}

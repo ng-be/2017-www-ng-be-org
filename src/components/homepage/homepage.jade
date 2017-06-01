@@ -1,0 +1,83 @@
+.page.page--homepage
+
+    .homepage-app
+
+        .container
+
+            a(href="http://app.ng-be.org", target="_blank") open mobile application
+
+    .homepage-hero
+
+        .container
+
+            h1 NG-BE
+            h2 Belgium's first ever Angular conference!
+            h3 Ghent, Belgium | 8 & 9 December 2016
+            p: a.btn.btn-primary.btn-large(href="https://ti.to/ng-be/ng-be-2016/") Tickets available now!
+
+    .homepage-schedule
+
+        .container
+
+            .row
+                .col-sm-4.col-sm-offset-2
+
+                    .schedule-day.schedule-day-workshop.text-right
+                        .schedule-day__title Workshop day
+                        .schedule-day__date December 8, 2016
+                        .schedule-day__description
+                            p Attend a workshop and pick up tips and tricks from Angular experts.
+                            a.btn.btn-default.btn-sm(ui-sref="app.public.workshopDay") Learn more
+                            | &nbsp;|&nbsp;
+                            a.btn.btn-primary.btn-sm.schedule-day__btn(href="https://ti.to/ng-be/ng-be-2016/") Buy tickets
+
+                .col-sm-4
+
+                    .schedule-day
+                        .schedule-day__title Conference day
+                        .schedule-day__date December 9, 2016
+                        .schedule-day__description
+                            p Socialize with Angular experts, attend talks and connect with the Angular Core team.
+                            a.btn.btn-default.btn-sm(ui-sref="app.public.conferenceDay") Learn more
+                            | &nbsp;|&nbsp;
+                            a.btn.btn-primary.btn-sm.schedule-day__btn(href="https://ti.to/ng-be/ng-be-2016/") Buy tickets
+
+
+    .homepage-organisers
+
+        .container
+
+            h1 Organisers
+
+            .row
+                .col-sm-5.col-sm-offset-1
+
+                    .organiser.text-right
+                        .row
+                            .col-xs-8.col-sm-9
+                                .organiser__name Sam Vloeberghs
+                                .organiser__title Co-organiser
+                                .organiser__links
+                                    .organiser-link
+                                        a(href="https://twitter.com/samvloeberghs", target="_blank") @samvloeberghs
+                            .col-xs-4.col-sm-3
+                                .organiser__image
+                                    img(src="components/team/img/sam-vloeberghs.jpg")
+
+                .col-sm-5
+
+                    .organiser
+                        .row
+                            .col-xs-4.col-sm-3
+                                .organiser__image
+                                    img(src="components/team/img/jurgen-van-de-moere.jpg")
+                            .col-xs-8.col-sm-9
+                                .organiser__name Jurgen Van de Moere
+                                .organiser__title Co-organiser
+                                .organiser__links
+                                    .organiser-link
+                                        a(href="https://twitter.com/jvandemo", target="_blank") @jvandemo
+
+    include /components/sponsorscommunity/sponsorscommunity
+
+    include /components/jobboard/jobboard
