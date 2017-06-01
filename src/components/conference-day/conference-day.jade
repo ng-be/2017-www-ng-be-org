@@ -5,14 +5,15 @@
         .container
 
             h1 Conference day
-            h3 Ghent, Belgium | 9 December 2016 | 07:00 - 19:30
+            h3 Ghent, Belgium | 8 December 2017 | 07:00 - 19:30
 
     .conference-day-intro
         .container
             .row
                 .col-sm-6.col-sm-offset-3
-
                     .text-center Learn about the latest Angular developments and meet with experts from the Angular community while enjoying delicious foods and drinks.
+                    .text-center
+                        strong More info coming soon!
 
 
     .conference-day-speakers
@@ -24,43 +25,15 @@
 
             ul.quicklinks
                 li
-                    a(ui-sref="app.public.conferenceDay({'#': 'igor-minar'})") Igor Minar
-                li
                     a(ui-sref="app.public.conferenceDay({'#': 'pascal-precht'})") Pascal Precht
                 li
                     a(ui-sref="app.public.conferenceDay({'#': 'todd-motto'})") Todd Motto
                 li
-                    a(ui-sref="app.public.conferenceDay({'#': 'minko-gechev'})") Minko Gechev
-                li
-                    a(ui-sref="app.public.conferenceDay({'#': 'gerard-sans'})") Gerard Sans
-                li
-                    a(ui-sref="app.public.conferenceDay({'#': 'tero-parviainen'})") Tero Parviainen
-                li
-                    a(ui-sref="app.public.conferenceDay({'#': 'pawel-kozlowski'})") Pawel Kozlowski
-                li
-                    a(ui-sref="app.public.conferenceDay({'#': 'manfred-steyer'})") Manfred Steyer
-                li
-                    a(ui-sref="app.public.conferenceDay({'#': 'nick-trogh'})") Nick Trogh
-                li
                     a(ui-sref="app.public.conferenceDay({'#': 'philippe-deryck'})") Philippe De Ryck
-                li
-                    a(ui-sref="app.public.conferenceDay({'#': 'oliver-zeigermann'})") Oliver Zeigermann
 
             .row
                 .col-sm-8.col-sm-offset-2.col-md-6.col-md-offset-3
 
-                    .speaker#igor-minar
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/igor-minar.jpg")
-                            .col-xs-9
-                                .speaker__name Igor Minar
-                                .speaker__title Angular Team Lead at Google
-                                .speaker__description Igor is a lead on the Angular project, practitioner of test driven development, open source enthusiast and hacker. In his free time, Igor enjoys spending time with his wife and two kids, doing outdoor activities.
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/IgorMinar", target="_blank") @IgorMinar
 
                     .speaker#pascal-precht
                         .row
@@ -82,89 +55,11 @@
                                     img(src="components/conference-day/img/todd-motto.jpg")
                             .col-xs-9
                                 .speaker__name Todd Motto
-                                .speaker__title Developer Advocate @Telerik. Founder of Ultimate Angular, Google Developer Expert
+                                .speaker__title Founder of Ultimate Angular, Google Developer Expert
                                 .speaker__description JavaScript, Angular, React, conference speaker. Developer Expert at Google, open source lover.
                                 .speaker__links
                                     .speaker-link
                                         a(href="https://twitter.com/toddmotto", target="_blank") @ToddMotto
-
-                    .speaker#minko-gechev
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/minko-gechev.jpg")
-                            .col-xs-9
-                                .speaker__name Minko Gechev
-                                .speaker__title Web hacker. Author of "Switching to Angular 2"
-                                .speaker__description Minko runs training courses in JavaScript and Angular. He has developed numerous projects such as AngularJS 1.x and Angular 2 style guides, angular2-seed, codelyzer, aspect.js, angular-aop, and many others.
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/mgechev", target="_blank") @mgechev
-
-                    .speaker#gerard-sans
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/gerard-sans.jpg")
-                            .col-xs-9
-                                .speaker__name Gerard Sans
-                                .speaker__title Community leader. Google Developer Expert
-                                .speaker__description Gerard is a Computer Science Engineer & Google Developer Expert. As an Angular fanboy and community activist he is fighting for the JavaScript revolution. Having lived and worked for all sorts of companies over the whole world, he is always up for a good challenge. He likes running AngularZone London, mentoring students & participating in the community.
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/gerardsans", target="_blank") @gerardsans
-
-                    .speaker#tero-parviainen
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/tero-parviainen.jpg")
-                            .col-xs-9
-                                .speaker__name Tero Parviainen
-                                .speaker__title Independent Contractor
-                                .speaker__description Tero Parviainen is an independent software developer, writer of programming books and articles, and an Angular 2 docs contributor.
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/teropa", target="_blank") @teropa
-
-                    .speaker#pawel-kozlowski
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/pawel-kozlowski.jpg")
-                            .col-xs-9
-                                .speaker__name Pawel Kozlowski
-                                .speaker__title Messing with the web @AmadeusITGroup. Angular team member.
-                                .speaker__description Pawel is a software-development addict who believes in free, open source software. He is a core contributor to the Angular framework, AngularUI, Karma-runner and several other projects. Currently obsessed with making Angular 2 the best web development platform ever. When not coding, Pawel can be spotted speaking at various software development conferences.
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/pkozlowski_os", target="_blank") @pkozlowski_os
-
-                    .speaker#manfred-steyer
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/manfred-steyer.jpg")
-                            .col-xs-9
-                                .speaker__name Manfred Steyer
-                                .speaker__title Freelance trainer and consultant. Focus on modern Web & service architectures.
-                                .speaker__description Trainer and Consultant with focus on Angular. Writes for O'Reilly, Hanser, windows.developer and Heise Developer. Regularly speaks at conferences.
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/ManfredSteyer", target="_blank") @ManfredSteyer
-
-                    .speaker#nick-trogh
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/nick-trogh.png")
-                            .col-xs-9
-                                .speaker__name Nick Trogh
-                                .speaker__title Sr. Technical Evangelist
-                                .speaker__description Nick is a technical evangelist at Microsoft Belux where he’s helping developers, startups and software companies realize their software dreams on the Microsoft platform. You can find him speaking about cloud, mobile, web and game development at conferences or meetups.
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/nicktrog", target="_blank") @nicktrog
 
                     .speaker#philippe-deryck
                         .row
@@ -179,45 +74,25 @@
                                     .speaker-link
                                         a(href="https://twitter.com/philippederyck", target="_blank") @philippederyck
 
-                    .speaker#oliver-zeigermann
-                        .row
-                            .col-xs-3
-                                .speaker__image
-                                    img(src="components/conference-day/img/oliver-zeigermann.jpg")
-                            .col-xs-9
-                                .speaker__name Oliver Zeigermann
-                                .speaker__title Freelance web developer
-                                .speaker__description Oliver Zeigermann is a developer and architect from Hamburg, Germany. Oliver is the co-author of the best selling German book on React, Redux, React Router, and Universal Rendering. He has also worked in several Angular and React projects using Flow and TypeScript
-                                .speaker__links
-                                    .speaker-link
-                                        a(href="https://twitter.com/DJCordhose", target="_blank") @DJCordhose
-    .conference-day-schedule
-
+    //.conference-day-schedule
         .container#schedule
-
             h1 Schedule
             h2 Every conference day ticket includes:
-
             .row
                 .col-sm-8.col-sm-offset-2
-
                     .schedule-items
                         .schedule-item
                             .schedule-item__time 07:00
                             .schedule-item__description
                                 p Doors are open
-
-
                         .schedule-item
                             .schedule-item__time 07:30
                             .schedule-item__description
                                 p Enjoy the continental breakfast buffet together with the speakers
-
                         .schedule-item__talk
                             .schedule-item__time 08:30
                             .schedule-item__description
                                 p The conference opening ceremony
-
                         .schedule-item__talk
                             .schedule-item__time 09:00
                             .schedule-item__description
@@ -226,7 +101,6 @@
                                     a(ui-sref="app.public.conferenceDay({'#': 'igor-minar'})") Igor Minar
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=aJIMoLgqU_o", target="_blank") Watch Igor's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 09:40
                             .schedule-item__description
@@ -236,7 +110,6 @@
                                 p If concepts like View, ViewContainer, TemplateRef or HostView get your head spinning - fear no more! During this talk I'm going to demystify Angular 2 rendering layer. Spend 30 minutes with me to learn how to handle complex rendering scenarios like a pro!
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=EMjTp12VbQ8", target="_blank") Watch Pawel's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 10:15
                             .schedule-item__description
@@ -246,12 +119,10 @@
                                 p In this session, we cover one of the most dangerous attacks in modern web applications: XSS. You will learn how Angular 2 protects you against XSS, and why you shouldn't bypass this protection. We will also dive into the new Content Security Policy, and through a few examples, I will show you how you can use CSP to enhance the security in your client-side context.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=l89acmnGMSc", target="_blank") Watch Philippe's talk on YouTube
-
                         .schedule-item
                             .schedule-item__time 10:45
                             .schedule-item__description
                                 p Break with coffees, teas, juices, energizers and snacks
-
                         .schedule-item
                             .schedule-item__time 11:10
                             .schedule-item__description
@@ -260,7 +131,6 @@
                                     a(href="sponsors#arhs-digital") ARHS Digital
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=lnlRS8y7BmM", target="_blank") Watch ARHS's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 11:20
                             .schedule-item__description
@@ -270,7 +140,6 @@
                                 p GraphQL was developed internally at Facebook in 2012. Its main goal was to allow Native Mobile teams to quickly build new products and collaborate within the large Facebook ecosystem without disrupting existing Data Services. In this talk we are going to introduce GraphQL and how we can use it together with the Apollo Client in Angular 2.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=VYpJ9pfugM8", target="_blank") Watch Gerard's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 12:10
                             .schedule-item__description
@@ -280,12 +149,10 @@
                                 p Modern web applications have constantly growing requirements and their complexity grows exponentially. Some of the biggest challenges in front of us are state management, testability and flexibility. Given the dynamic business environment we need to make sure our projects' design uses well known patterns most developers are familiar with. In this talk I’ll introduce a scalable Angular 2 application architecture, which answers the following requirements: testability, predictable state management, scalable communication layer and modular and robust design.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=gtOPAj9_FSM", target="_blank") Watch Minko's talk on YouTube
-
                         .schedule-item
                             .schedule-item__time 12:40
                             .schedule-item__description
                                 p Lunch time: fresh soup, salads, selections of cold and warm fish and meat dishes, dessert
-
                         .schedule-item__talk
                             .schedule-item__time 14:00
                             .schedule-item__description
@@ -297,7 +164,6 @@
                                 p React and Angular share a lot of architectural decisions and have inspired each other as well. They are both component oriented, have automated changed detection and can render both on the server as well as on the client side. However, there are also quite a few differences in how they work and which philosophy they follow. Based on advanced practical examples we will look at the most interesting differences between those two frameworks. This can help you understand your Angular framework even better and gives you insights into what strengths and what weaknesses it has in certain scenarios.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=FIi6AkI7wKE", target="_blank") Watch Pascal's & Oliver's talk on YouTube
-
                         .schedule-item
                             .schedule-item__time 14:45
                             .schedule-item__description
@@ -306,7 +172,6 @@
                                     a(href="sponsors#ordina") Ordina
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=s8RK7RS5XnQ", target="_blank") Watch Ordina's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 15:00
                             .schedule-item__description
@@ -316,12 +181,10 @@
                                 p From writing the AngularJS sources in your favorite code editor to running the application in a production environment, involves a considerable amount of steps. There are the basic steps of transpiling, packing up your files, minification, etc. And to make sure that we have a quality app, we add some unit testing and code coverage to the mix, optionally performing some performance testing. By the way, we need to perform the actual production deployment too. In this session we'll look at a practical example of how to setup a fully automated release pipeline, so that you can focus on writing code rather than operating a deployment infrastructure.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=x-BRn7aRrA4", target="_blank") Watch Nick's talk on YouTube
-
                         .schedule-item
                             .schedule-item__time 15:30
                             .schedule-item__description
                                 p Break with coffees, teas, juices, energizers and snacks
-
                         .schedule-item__talk
                             .schedule-item__time 16:00
                             .schedule-item__description
@@ -331,7 +194,6 @@
                                 p Angular 2 applications can lazily load modules to improve start-up performance. This session shows by example how to optimize solutions using this approach. Potential pitfalls are described and information is presented about asynchronously preloading modules with both builtin and user-generated strategies to speed up lazy loading.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=i0y5bJx8RFc", target="_blank") Watch Manfred's talk on YouTube
-
                         .schedule-item
                             .schedule-item__time 16:40
                             .schedule-item__description
@@ -340,7 +202,6 @@
                                     a(href="sponsors#aarixa") aariXa
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=-v727QwReXE", target="_blank") Watch aariXa's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 16:50
                             .schedule-item__description
@@ -350,7 +211,6 @@
                                 p In this talk we'll take a deeper dive into Angular 2 Reactive forms and utilise the powerful APIs Angular 2 offers for complex forms, validation and much more.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=8CbZCmAwBCc", target="_blank") Watch Todd's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 17:30
                             .schedule-item__description
@@ -360,29 +220,23 @@
                                 p When it comes to putting stuff on the screen in Angular webapps, HTML+CSS is usually the most appropriate medium. But it’s not the only game in town. Alternative APIs such as SVG and Canvas can provide a lot of extra power when you need it for those dazzling visualizations, UI effects, games, and artistic apps. In this talk we’ll look at how SVG and Canvas graphics can be created with Angular and what we have to keep in mind as we do it.
                                 p.schedule-item__youtube
                                     a(href="https://www.youtube.com/watch?v=30li6w62eCo", target="_blank") Watch Tero's talk on YouTube
-
                         .schedule-item__talk
                             .schedule-item__time 18:00
                             .schedule-item__description
                                 p Closing ceremony
-
                         .schedule-item
                             .schedule-item__time 18:30
                             .schedule-item__description
                                 p Opportunity to socialise with speakers and take pictures with your favorite Angular experts
-
                         .schedule-item
                             .schedule-item__time 19:30
                             .schedule-item__description
                                 p End
 
-    .conference-day-buy
-
+    //.conference-day-buy
         .container
-
             h1 Don't miss it!
             h2 Due to the small venue size, only limited tickets are available:
-
             a.btn.btn-primary.btn-lg(href="https://ti.to/ng-be/ng-be-2016/", target="_blank") Buy your conference ticket now
 
     .conference-ticket-includes
@@ -423,10 +277,8 @@
                         p Morning and afternoon breaks with coffees, teas, juices, fresh yoghurt and fruits.
 
 
-    .conference-day-angular-air
-
+    //.conference-day-angular-air
         .container
-
             img(src="/components/conference-day/img/angular-air.png")
             h1 Angular Air is coming!
             .row
@@ -441,4 +293,4 @@
                         | team will be present at NG-BE and will be recording an on-site video podcast
             a.btn.btn-primary.btn-lg(href="https://ti.to/ng-be/ng-be-2016/", target="_blank") Buy your conference ticket now
 
-    include /components/sponsorscommunity/sponsorscommunity
+    //include /components/sponsorscommunity/sponsorscommunity
