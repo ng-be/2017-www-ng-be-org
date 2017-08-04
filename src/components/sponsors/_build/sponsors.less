@@ -3,7 +3,7 @@
 .page--sponsors {
 
   .sponsors-hero {
-    padding: 60px 0;
+    padding: 30px 0;
     text-align: center;
 
     @media (max-width: @screen-sm-min) {
@@ -27,32 +27,104 @@
     }
   }
 
-  .sponsor-section{
-    margin: 0 auto 60px auto;
+  .sponsor-section {
+    margin: 0 auto 30px auto;
 
-    h1{
+    h1 {
       text-transform: uppercase;
+      text-align: center;
       font-size: 1.2rem;
       border-bottom: 1px solid @ng-be-border-color;
       padding: 0 0 5px 0;
       margin: 0 0 30px 0;
     }
 
-    .sponsor{
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 24px;
+      margin: 15px 0 45px 0;
+      position: relative;
+      span {
+        padding: 0 0 5px 0;
+        border-bottom: 1px solid @ng-be-border-color;
+      }
+
+      @media (max-width: @screen-sm-min) {
+        margin-top: 0;
+      }
+
+    }
+
+    .sponsor {
       margin: 0 0 30px 0;
     }
 
-    .sponsor__image{
+    .sponsor__image {
       text-align: center;
-      img{
+      img {
         width: 100%;
       }
     }
 
-    .sponsor__name{
+    .sponsor__name {
       font-weight: 700;
       font-size: 1.2rem;
       margin: 0 0 10px 0;
+    }
+
+    &--platinum {
+      background: @ng-be-yellow;
+      padding: 30px 0;
+      text-align: center;
+
+      h1 {
+        border-bottom: none;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.4);
+        text-align: left;
+        @media (max-width: @screen-sm-min) {
+          text-align: center;
+        }
+      }
+      .sponsor__image {
+        img {
+          width: 300px;
+        }
+        margin-bottom: 30px;
+      }
+
+      .sponsor__description {
+        text-align: left;
+        @media (max-width: @screen-sm-min) {
+          text-align: center;
+        }
+        p {
+          margin: 0;
+        }
+      }
+
+      .sponsor__link {
+        &.big {
+          @media (max-width: @screen-sm-min) {
+            display: none;
+          }
+        }
+        &.small {
+          margin-top: 15px;
+          @media (min-width: @screen-sm-min) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &--gold {
+
+      .sponsor {
+        padding: 0 15px;
+      }
+
     }
 
   }
@@ -76,32 +148,6 @@
 
   .section-sponsors {
     margin: 0 0 90px 0;
-  }
-
-  .sponsor-section--platinum{
-    background: @ng-be-yellow;
-    padding: 45px 0;
-    text-align: center;
-
-    h1{
-      border-bottom: none;
-      font-weight: bold;
-      color: rgba(0,0,0,0.4);
-    }
-    .sponsor__image{
-      img{
-        width: 300px;
-      }
-      margin-bottom: 30px;
-    }
-
-    .sponsor__description{
-      margin-bottom: 30px;
-    }
-
-    .sponsor__link{
-
-    }
   }
 
 }
