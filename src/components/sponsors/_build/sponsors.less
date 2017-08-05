@@ -25,6 +25,11 @@
       padding: 0;
       font-size: 1.3rem;
     }
+    .request {
+      @media (max-width: @screen-sm-min) {
+        font-size: 0.8em;
+      }
+    }
   }
 
   .sponsor-section {
@@ -90,6 +95,10 @@
       .sponsor__image {
         img {
           width: 300px;
+          @media (max-width: @screen-sm-min) {
+            width: 80%;
+            margin: 0 auto;
+          }
         }
         margin-bottom: 30px;
       }
