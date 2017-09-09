@@ -18,7 +18,7 @@
 
     .workshop-day-workshop.workshop-day-workshop--one
         .workshop-heading
-            .workshop-heading__intro Workshop 1 - Angular
+            .workshop-heading__intro Workshop 1 - Angular Forms
             .workshop-heading__title Angular Masterclass Workshop<br />by Thoughtram
             .workshop-heading__date 7 December 2017 | 08:30 - 17:30
             //.workshop-heading__tickets-left Sold out!
@@ -28,7 +28,7 @@
             .container
                 .workshop-section-title Trainers
                 .row
-                    .col-sm-6.col-sm-offset-2
+                    .col-sm-6
                         .trainer.text-right
                             .row
                                 .col-xs-8.col-sm-9
@@ -40,7 +40,7 @@
                                 .col-xs-4.col-sm-3
                                     .trainer__image
                                         img(src="components/workshop-day/img/pascal-precht.jpg")
-                    //.col-sm-6
+                    .col-sm-6
                         .trainer
                             .row
                                 .col-xs-4.col-sm-3
@@ -59,6 +59,12 @@
                             a(href="http://thoughtram.io", target="_blank")
                                 img(src="components/workshop-day/img/thoughtram.png")
                         p.company__desc We help people to get a deep understanding of different technologies through trainings and code reviews. Our services can be arranged online, making it possible to join in from anywhere in the world, or on-site to get the best experience possible.
+        .workshop-description
+            .container
+                .row
+                    .col-sm-6.col-sm-offset-3
+                        .workshop-section-title Description
+                        p In this training, you will learn about template-driven and reactive forms by creating an application that uses various form control types. This workshop is intended for developers with an intermediate working knowledge of Angular.
         .workshop-schedule
             .container
                 .row
@@ -72,9 +78,7 @@
                             .schedule-item
                                 .schedule-item__time 08:30
                                 .schedule-item__description
-                                    ul
-                                        li Bootstrapping an Angular 2 application
-                                        li Using child directives / components
+                                    p Create forms using ngForm, ngModel and ngModelGroup
                             .schedule-item
                                 .schedule-item__time 10:30
                                 .schedule-item__description
@@ -82,9 +86,8 @@
                             .schedule-item
                                 .schedule-item__time 11:00
                                 .schedule-item__description
-                                    ul
-                                        li Creating dynamic lists
-                                        li Services and Dependency Injection
+                                    p Use built-in validators and how to create your own custom validator
+                                    p Create async validators
                             .schedule-item
                                 .schedule-item__time 12:30
                                 .schedule-item__description
@@ -92,9 +95,7 @@
                             .schedule-item
                                 .schedule-item__time 14:00
                                 .schedule-item__description
-                                    ul
-                                        li Routing
-                                        li Fetching and posting data using Http
+                                    p Use reactive form APIs to take your form to the next level, using FormControl, FormGroup and FormBuilder APIs
                             .schedule-item
                                 .schedule-item__time 15:30
                                 .schedule-item__description
@@ -102,10 +103,7 @@
                             .schedule-item
                                 .schedule-item__time 16:00
                                 .schedule-item__description
-                                    ul
-                                        li Observables
-                                        li Two-way data binding and simple Forms
-                                        li AsyncPipe
+                                    p Create custom form controls
                             .schedule-item
                                 .schedule-item__time 17:30
                                 .schedule-item__description
@@ -154,6 +152,14 @@
                             a(href="http://strongbrew.io", target="_blank")
                                 img(src="components/workshop-day/img/strongbrew.jpg")
                         p.company__desc StrongBrew does not only stand for the fact that we adore the famous Belgian beers, but we also look at our workshops as brews, certain recipes to create awesome webapps. We also hold strong opinions on how one should create webapplications, and even though there are multiple ways to get stuff done, we would love to teach you how we do things.
+        .workshop-description
+            .container
+                .row
+                    .col-sm-6.col-sm-offset-3
+                        .workshop-section-title Description
+                        p In this workshop you will learn how to use RxJS properly in an angular application.
+                        p You will see many code examples to get familiar with RxJS patterns to make your Angular applications reactive. Both simple and complex, eg: an infinite scroll. In addition, you will learn about the tools to analyse a problem and write some proper RxJS code around that problem.
+                        p After the workshop, you should be able to fix easy and even complex problems and have more insights into the wonders of RxJS. Most importantly, you will learn how to "think in streams".
         .workshop-schedule
             .container
                 .row
@@ -167,14 +173,10 @@
                             .schedule-item
                                 .schedule-item__time 08:30
                                 .schedule-item__description
-                                    p Angular 2 in a nutshell
+                                    p RXJS in a nutshell
                                     ul
-                                        li Input, Output
-                                        li Dependency injection, onPush strategy
-                                    p Smart & dumb components
-                                    ul
-                                        li Theory
-                                        li Design and exercises
+                                        li How angular embraces RXJS
+                                        li Subjects
                             .schedule-item
                                 .schedule-item__time 10:30
                                 .schedule-item__description
@@ -182,12 +184,10 @@
                             .schedule-item
                                 .schedule-item__time 11:00
                                 .schedule-item__description
-                                    p Redux and @ngrx
+                                    p Designing a reactive application
                                     ul
-                                        li Theory
-                                        li Test driven reducers + Wallaby
-                                        li Action creators + combineReducers
-                                        li Dev tools + ngrxstore
+                                        li Thinking in streams
+                                        li Drawing streams
                             .schedule-item
                                 .schedule-item__time 12:30
                                 .schedule-item__description
@@ -195,10 +195,7 @@
                             .schedule-item
                                 .schedule-item__time 14:00
                                 .schedule-item__description
-                                    p RxJS
-                                        li Theory
-                                        li Implement streams
-                                        li Flatmap example
+                                    p Documenting streams
                             .schedule-item
                                 .schedule-item__time 15:30
                                 .schedule-item__description
@@ -206,8 +203,7 @@
                             .schedule-item
                                 .schedule-item__time 16:00
                                 .schedule-item__description
-                                    p Going real-time
-                                    p Architectural decisions
+                                    p Debugging streams
                             .schedule-item
                                 .schedule-item__time 17:30
                                 .schedule-item__description
@@ -243,6 +239,14 @@
                                 a(href="https://www.websec.be/", target="_blank")
                                     img(src="components/workshop-day/img/ku-leuven.svg")
                             p.company__desc Philippe runs the Web Security Training program at iMinds-DistriNet Research Group, KU Leuven. Through practical, hands-on trainings, Philippe teaches about relevant threats, current state-of-practice security technologies, and upcoming technologies to keep an eye on.
+            .workshop-description
+                .container
+                    .row
+                        .col-sm-6.col-sm-offset-3
+                            .workshop-section-title Description
+                            p Learn to untangle authentication in Angular applications.
+                            p Authentication and session management in Angular applications does not seem that different. But when you take a closer look, you will find yourself surprised. For example, many Angular applications opt for JWT tokens instead of cookies. But did you know that comparing these two makes no sense? Authentication and session management affect not only the frontend but also the backend. When do you need to protect your API against Cross-Site Request Forgery? And how do you deploy a correct Cross-Origin Resource Sharing (CORS) policy?
+                            p Many developers struggle with these questions. In this workshop, we take a close look at common mistakes in Angular applications. Throughout the day, we build up a set of best practices. In the end, you will walk away with the knowledge to make educated decisions about the security of your applications.
             .workshop-schedule
                 .container
                     .row
