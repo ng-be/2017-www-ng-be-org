@@ -211,10 +211,9 @@
                                     .speaker-link
                                         a(href="https://twitter.com/vogloblinsky", target="_blank") @vogloblinsky
 
-    //.conference-day-schedule
+    .conference-day-schedule
         .container#schedule
             h1 Schedule
-            h2 Every conference day ticket includes:
             .row
                 .col-sm-8.col-sm-offset-2
                     .schedule-items
@@ -227,148 +226,184 @@
                             .schedule-item__description
                                 p Enjoy the continental breakfast buffet together with the speakers
                         .schedule-item__talk
-                            .schedule-item__time 08:30
+                            .schedule-item__time 08:45
                             .schedule-item__description
                                 p The conference opening ceremony
                         .schedule-item__talk
                             .schedule-item__time 09:00
                             .schedule-item__description
-                                h3 Keynote
+                                h3 Angular Elements
                                 p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'igor-minar'})") Igor Minar
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=aJIMoLgqU_o", target="_blank") Watch Igor's talk on YouTube
+                                    a(ui-sref="app.public.conferenceDay({'#': 'pascal-precht'})") Pascal Precht
+                                p In this talk we'll take a look at experimental APIs that enable us to generate native Web Components from Angular components.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Pascal's talk on YouTube
                         .schedule-item__talk
-                            .schedule-item__time 09:40
+                            .schedule-item__time 09:35
                             .schedule-item__description
-                                h3 Reactive parenting with Angular 2
+                                h3 Building High Performance Static Website with Angular
                                 p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'pawel-kozlowski'})") Pawel Kozlowski
-                                p If concepts like View, ViewContainer, TemplateRef or HostView get your head spinning - fear no more! During this talk I'm going to demystify Angular 2 rendering layer. Spend 30 minutes with me to learn how to handle complex rendering scenarios like a pro!
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=EMjTp12VbQ8", target="_blank") Watch Pawel's talk on YouTube
+                                    a(ui-sref="app.public.conferenceDay({'#': 'uri-shaked'})") Uri Shaked
+                                p Traditionally, AngularJS has been used for building rich single-page applications.
+                                p Nowadays, Angular has become a universal framework, running inside the browser, in the backend and even powering your mobile apps.
+                                p The new Angular version unlocks some interesting use-cases that were not previously possible. In this talk, we are going to see how to set up angular-universal together with fuse-box for building scalable, high-performance static web sites, such as a blog or a landing page that can be easily deployed to gh-pages or Firebase Hosting.
+                                p Did I mention hot-reloading, offline support and Progressive Web Apps?
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Uri's talk on YouTube
                         .schedule-item__talk
-                            .schedule-item__time 10:15
+                            .schedule-item__time 10:10
                             .schedule-item__description
-                                h3 Boosting the security of your Angular 2 application
+                                h3 Create and publish Angular libs like a Pro
                                 p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'philippe-deryck'})") Philippe De Ryck
-                                p In this session, we cover one of the most dangerous attacks in modern web applications: XSS. You will learn how Angular 2 protects you against XSS, and why you shouldn't bypass this protection. We will also dive into the new Content Security Policy, and through a few examples, I will show you how you can use CSP to enhance the security in your client-side context.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=l89acmnGMSc", target="_blank") Watch Philippe's talk on YouTube
+                                    a(ui-sref="app.public.conferenceDay({'#': 'juri-strumpflohner'})") Juri Strumpflohner
+                                p Libraries are the building blocks of every serious application. As such, a healthy ecosystem of reusable tools and libraries are extremely important for the success of a frontend framework.
+                                p In this talk we will learn how to contribute to the Angular ecosystem by learning how to build and release Angular libraries like a pro. We will explore their structure, learn about bundling techniques and formats and finally about semantic versioning & continuous, automated deployment to NPM.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Juri's talk on YouTube
                         .schedule-item
-                            .schedule-item__time 10:45
+                            .schedule-item__time 10:40
                             .schedule-item__description
                                 p Break with coffees, teas, juices, energizers and snacks
                         .schedule-item
-                            .schedule-item__time 11:10
+                            .schedule-item__time 11:00
                             .schedule-item__description
                                 p Sponsor talk by
                                     = ' '
                                     a(href="sponsors#arhs-digital") ARHS Digital
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=lnlRS8y7BmM", target="_blank") Watch ARHS's talk on YouTube
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch ARHS's talk on YouTube
                         .schedule-item__talk
-                            .schedule-item__time 11:20
+                            .schedule-item__time 11:10
                             .schedule-item__description
-                                h3 Unleashing the power of GraphQL using Angular 2
+                                h3 Hidden Gems of TypeScript compiler
                                 p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'gerard-sans'})") Gerard Sans
-                                p GraphQL was developed internally at Facebook in 2012. Its main goal was to allow Native Mobile teams to quickly build new products and collaborate within the large Facebook ecosystem without disrupting existing Data Services. In this talk we are going to introduce GraphQL and how we can use it together with the Apollo Client in Angular 2.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=VYpJ9pfugM8", target="_blank") Watch Gerard's talk on YouTube
+                                    a(ui-sref="app.public.conferenceDay({'#': 'vincent-ogloblinsky'})") Vincent	Ogloblinsky
+                                p TypeScript provides a powerful compiler we use most of the time for transpiling codebase in our projects. But it also has hidden features that can help us with so many fantastic tasks.
+                                In this talk we will learn how the compiler works, and how we can use it for statical analysis (Codelyzer, TSLint), context aware replacement, code visualization (ngrev), documentation (Compodoc, TypeDoc) or language service plugin (Angular Language Service).
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Vincent's talk on YouTube
                         .schedule-item__talk
-                            .schedule-item__time 12:10
+                            .schedule-item__time 11:45
                             .schedule-item__description
-                                h3 Scalable Angular Application Architecture
+                                h3 Cookies versus tokens: a paradoxical choice
                                 p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'minko-gechev'})") Minko Gechev
-                                p Modern web applications have constantly growing requirements and their complexity grows exponentially. Some of the biggest challenges in front of us are state management, testability and flexibility. Given the dynamic business environment we need to make sure our projects' design uses well known patterns most developers are familiar with. In this talk I’ll introduce a scalable Angular 2 application architecture, which answers the following requirements: testability, predictable state management, scalable communication layer and modular and robust design.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=gtOPAj9_FSM", target="_blank") Watch Minko's talk on YouTube
+                                    a(ui-sref="app.public.conferenceDay({'#': 'philippe-deryck'})") Philippe De Ryck
+                                p When you’re building Angular applications, you will need to figure out how to manage your user’s sessions. Back in the days, this used to be simple. But now, there are many different options, all with specific advantages and disadvantages. How can you make a sensible choice, and how will that impact the security of your application? This talk will lay it out for you. You will learn how to assess your past choices, and how to substantiate future decisions.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Philippe's talk on YouTube
+                        .schedule-item
+                            .schedule-item__time 12:15
+                            .schedule-item__description
+                                p Sponsor giveaway by
+                                    = ' '
+                                    a(href="sponsors#euricom") Euricom
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Euricom's talk on YouTube
+                        .schedule-item__talk
+                            .schedule-item__time 12:20
+                            .schedule-item__description
+                                h3 Creating an Angular Progressive Web App: which option will work better for you?
+                                p
+                                    a(ui-sref="app.public.conferenceDay({'#': 'maxim-salnikov'})") Maxim Salnikov
+                                p We have at least two very interesting options to create an Angular PWA. First, the native Angular Service Worker (NGSW) by the Angular team, super-powered by Angular CLI and some extra ng-pwa-tools. Second, the all new framework-agnostic Workbox library by the Google Chrome team.
+                                p What's easier to set up for your Angular app? What has wider functionality? What's faster and more robust? Let's go exploring, coding and testing! You will have 100% full overview of these two approaches after my session, but the final decision is yours!"
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Maxims's talk on YouTube
                         .schedule-item
                             .schedule-item__time 12:40
                             .schedule-item__description
                                 p Lunch time: fresh soup, salads, selections of cold and warm fish and meat dishes, dessert
-                        .schedule-item__talk
-                            .schedule-item__time 14:00
-                            .schedule-item__description
-                                h3 Angular and React: friends learning from each other
-                                p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'pascal-precht'})") Pascal Precht
-                                    = ' & '
-                                    a(ui-sref="app.public.conferenceDay({'#': 'oliver-zeigermann'})") Oliver Zeigermann
-                                p React and Angular share a lot of architectural decisions and have inspired each other as well. They are both component oriented, have automated changed detection and can render both on the server as well as on the client side. However, there are also quite a few differences in how they work and which philosophy they follow. Based on advanced practical examples we will look at the most interesting differences between those two frameworks. This can help you understand your Angular framework even better and gives you insights into what strengths and what weaknesses it has in certain scenarios.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=FIi6AkI7wKE", target="_blank") Watch Pascal's & Oliver's talk on YouTube
                         .schedule-item
-                            .schedule-item__time 14:45
+                            .schedule-item__time 14:00
                             .schedule-item__description
                                 p Sponsor talk by
                                     = ' '
                                     a(href="sponsors#ordina") Ordina
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=s8RK7RS5XnQ", target="_blank") Watch Ordina's talk on YouTube
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Ordina's talk on YouTube
                         .schedule-item__talk
-                            .schedule-item__time 15:00
+                            .schedule-item__time 14:15
                             .schedule-item__description
-                                h3 Practical AngularJS DevOps
-                                p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'nick-trogh'})") Nick Trogh
-                                p From writing the AngularJS sources in your favorite code editor to running the application in a production environment, involves a considerable amount of steps. There are the basic steps of transpiling, packing up your files, minification, etc. And to make sure that we have a quality app, we add some unit testing and code coverage to the mix, optionally performing some performance testing. By the way, we need to perform the actual production deployment too. In this session we'll look at a practical example of how to setup a fully automated release pipeline, so that you can focus on writing code rather than operating a deployment infrastructure.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=x-BRn7aRrA4", target="_blank") Watch Nick's talk on YouTube
-                        .schedule-item
-                            .schedule-item__time 15:30
-                            .schedule-item__description
-                                p Break with coffees, teas, juices, energizers and snacks
-                        .schedule-item__talk
-                            .schedule-item__time 16:00
-                            .schedule-item__description
-                                h3 Improving Start-up Performance with Lazy Loading in Angular 2
+                                h3 A close look at Angular's new HttpClient
                                 p
                                     a(ui-sref="app.public.conferenceDay({'#': 'manfred-steyer'})") Manfred Steyer
-                                p Angular 2 applications can lazily load modules to improve start-up performance. This session shows by example how to optimize solutions using this approach. Potential pitfalls are described and information is presented about asynchronously preloading modules with both builtin and user-generated strategies to speed up lazy loading.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=i0y5bJx8RFc", target="_blank") Watch Manfred's talk on YouTube
+                                p Nearly all Angular applications must communicate with HTTP-based APIs. To make this task easier, Angular 4.3 introduced the new HttpClient.
+                                p This session looks at its possibilities. It shows how to use not only JSON but also other text-based formats like XML or CSV.
+                                p Furthermore, you will see how to deal with binary streams and how your application can get progress information when doing file up- and downloads.
+                                p In addition, we will look at Interceptors that allow to implement cross-cutting concerns like security checks, logging, or caching.
+                                p Finally, you will see how to protect from XSRF attacks and what the HttpClient holds in store for testing.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Manfred's talk on YouTube
+                        .schedule-item__talk
+                            .schedule-item__time 14:50
+                            .schedule-item__description
+                                h3 It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets
+                                p
+                                    a(ui-sref="app.public.conferenceDay({'#': 'aimee-knight'})") Aimee Knight
+                                p All too often developers are left completely puzzled when the browser renders CSS in ways they didn’t expect. It’s not dark magic though and as developers we know that computers are just parsing our instructions. While many talks discuss how to fix common bugs, this talk will focus on the why by taking a deep dive into browser internals to see how our styles are parsed and rendered.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Aimee's talk on YouTube
+                        .schedule-item__talk
+                            .schedule-item__time 15:25
+                            .schedule-item__description
+                                h3 How to hack an Angular app?
+                                p
+                                    a(ui-sref="app.public.conferenceDay({'#': 'asim-hussain'})") Asim Hussain
+                                p Thought hacking was hard? It’s not, it’s easy and I’m going to show you how! In this episode of CSI Belgium we’ll investigate a series of hacking stories and break them down step-by-step to see exactly how they did it. By the end you’ll walk away a little bit more scared and a lot more prepared with some great practices you can apply immediately to your own applications.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Asim's talk on YouTube
                         .schedule-item
-                            .schedule-item__time 16:40
+                            .schedule-item__time 15:55
+                            .schedule-item__description
+                                p Break with coffees, teas, juices, energizers and snacks
+                        .schedule-item
+                            .schedule-item__time 16:15
                             .schedule-item__description
                                 p Sponsor talk by
                                     = ' '
                                     a(href="sponsors#aarixa") aariXa
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=-v727QwReXE", target="_blank") Watch aariXa's talk on YouTube
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=-", target="_blank") Watch aariXa's talk on YouTube
                         .schedule-item__talk
-                            .schedule-item__time 16:50
+                            .schedule-item__time 16:25
                             .schedule-item__description
-                                h3 Angular 2 Forms, the hero we need but not the one we deserve.
+                                h3 Taming snakes with reactive streams
+                                p
+                                    a(ui-sref="app.public.conferenceDay({'#': 'dominic-elm'})") Dominic Elm
+                                p In this talk you will learn how to think reactively by implementing a snakes game without relying on any external state variables. In addition, you will learn how to make use of some very common operators including scan, withLatestFrom, combineLatest etc.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Dominic's talk on YouTube
+                        .schedule-item__talk
+                            .schedule-item__time 17:00
+                            .schedule-item__description
+                                h3 Performant Augmented Reality for the Web
+                                p
+                                    a(ui-sref="app.public.conferenceDay({'#': 'aysegul-yonet'})") Ayşegül Yönet
+                                p Augmented Reality is opening up new and exciting possibilities for users. Today we are able to develop pure web experiences that work on mobile devices. While it is exciting, it is a brand new technology. Creating Augmented Reality experiences involves several APIs, WebRTC, WebGL and more.
+                                p Let’s look at how we can make it easier to create Augmented Reality experiences with declarative Angular components. We will go over the performance considerations as well as the “Hello AR!” example code and resources.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Todd's talk on YouTube
+                        .schedule-item__talk
+                            .schedule-item__time 17:35
+                            .schedule-item__description
+                                h3 Angular Architecture: From Patterns to Implementation
                                 p
                                     a(ui-sref="app.public.conferenceDay({'#': 'todd-motto'})") Todd Motto
-                                p In this talk we'll take a deeper dive into Angular 2 Reactive forms and utilise the powerful APIs Angular 2 offers for complex forms, validation and much more.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=8CbZCmAwBCc", target="_blank") Watch Todd's talk on YouTube
+                                p Design patterns are what drives sensible architecture, and this applies to code organisation, component and module architecture, all the way through to state management. Let’s see how they all work as individual patterns, and explore their implementation in code. Once we know how the moving pieces work, we can easily fit them together to build solid apps that head in the same direction.
+                                //p.schedule-item__youtube
+                                    a(href="https://www.youtube.com/watch?v=", target="_blank") Watch Todd's talk on YouTube
                         .schedule-item__talk
-                            .schedule-item__time 17:30
+                            .schedule-item__time 18:05
                             .schedule-item__description
-                                h3 Making SVG and Canvas Graphics in Angular
-                                p
-                                    a(ui-sref="app.public.conferenceDay({'#': 'tero-parviainen'})") Tero Parviainen
-                                p When it comes to putting stuff on the screen in Angular webapps, HTML+CSS is usually the most appropriate medium. But it’s not the only game in town. Alternative APIs such as SVG and Canvas can provide a lot of extra power when you need it for those dazzling visualizations, UI effects, games, and artistic apps. In this talk we’ll look at how SVG and Canvas graphics can be created with Angular and what we have to keep in mind as we do it.
-                                p.schedule-item__youtube
-                                    a(href="https://www.youtube.com/watch?v=30li6w62eCo", target="_blank") Watch Tero's talk on YouTube
-                        .schedule-item__talk
-                            .schedule-item__time 18:00
-                            .schedule-item__description
-                                p Closing ceremony
+                                p Conference closing ceremony
                         .schedule-item
-                            .schedule-item__time 18:30
+                            .schedule-item__time 18:20
                             .schedule-item__description
                                 p Opportunity to socialise with speakers and take pictures with your favorite Angular experts
                         .schedule-item
                             .schedule-item__time 19:30
                             .schedule-item__description
-                                p End
+                                p End of conference
 
     //.conference-day-buy
         .container
